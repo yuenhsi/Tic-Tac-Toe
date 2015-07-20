@@ -51,7 +51,7 @@ class ViewController: UIViewController {
         turn = 1
         grid = [0,0,0,0,0,0,0,0,0]
         
-        for (var i = 0; i < 8; i++) {
+        for (var i = 0; i < 9; i++) {
             var button: UIButton = view.viewWithTag(i) as! UIButton
             button.setImage(nil, forState: .Normal)
         }
